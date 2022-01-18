@@ -14,6 +14,8 @@ def fizzbuzz3(n_iter, any_num, any_char)
             puts "Fizz" + any_char
         elsif i % (5 * any_num) == 0
             puts "Buzz" + any_char
+        elsif i % (5 * 3) == 0
+            puts "FizzBuzz"
         elsif i % any_num == 0
             puts any_char
         elsif i % 3 == 0
